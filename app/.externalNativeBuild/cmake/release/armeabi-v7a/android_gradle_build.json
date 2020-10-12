@@ -1,0 +1,198 @@
+{
+  "stringTable": {
+    "0": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/lishixing/Library/Android/sdk/android-ndk-r20b/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lishixing/Library/Android/sdk/android-ndk-r20b/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -I../../../../src/main/cpp -I../../../../src/main/cpp/common -I../../../../src/main/cpp/video_player -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -O3 -fexceptions -fsigned-char -frtti -std=c++11 -Wformat -O2 -g -DNDEBUG -fPIC -DGL_GLEXT_PROTOTYPES -DEGL_EGLEXT_PROTOTYPES",
+    "2": "--target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/lishixing/Library/Android/sdk/android-ndk-r20b/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lishixing/Library/Android/sdk/android-ndk-r20b/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../src/main/cpp/thirdparty/ffmpeg/include -I../../../../src/main/cpp -I../../../../src/main/cpp/common -I../../../../src/main/cpp/video_player -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -O3 -fexceptions -fsigned-char -frtti -std=c++11 -Wformat -O2 -g -DNDEBUG -fPIC -DGL_GLEXT_PROTOTYPES -DEGL_EGLEXT_PROTOTYPES -DGL_GLEXT_PROTOTYPES -DEGL_EGLEXT_PROTOTYPES",
+    "3": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp"
+  },
+  "buildFiles": [
+    "/Users/lishixing/Library/Android/sdk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/Users/lishixing/Library/Android/sdk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/CMakeLists.txt",
+    "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lishixing/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "native-lib-RelWithDebInfo-armeabi-v7a": {
+      "buildCommand": "/Users/lishixing/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+      "buildType": "release",
+      "toolchain": "3624340128",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/jni/ChangbaPlayer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/jni/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so"
+    },
+    "av-engine-RelWithDebInfo-armeabi-v7a": {
+      "buildCommand": "/Users/lishixing/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a --target av-engine",
+      "buildType": "release",
+      "toolchain": "3624340128",
+      "abi": "armeabi-v7a",
+      "artifactName": "av-engine",
+      "files": [
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/matrix.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/thread.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/egl_core/egl_core.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/egl_core/egl_share_context.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/message_queue/handler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/message_queue/message_queue.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/libresampler/Resampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opensl_media/opensl_es_context.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/movie_frame.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/render/video_gl_surface_render.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture/gpu_texture_frame.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture/texture_frame.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture_copier/gpu_texture_frame_copier.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/audio_output.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/video_output.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/video_player_controller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/common/circle_texture_queue.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/decoder/decoder_request_header.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/decoder/ffmpeg_video_decoder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/decoder/mediacodec_video_decoder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/decoder/video_decoder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/sync/av_synchronizer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/texture_uploader/gpu_texture_frame_uploader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/texture_uploader/texture_frame_uploader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        },
+        {
+          "src": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/src/main/cpp/video_player/texture_uploader/yuv_texture_frame_uploader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 3
+        }
+      ],
+      "output": "/Users/lishixing/Desktop/document/android/downprojct/Android-as_video_player/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/libav-engine.a"
+    }
+  },
+  "toolchains": {
+    "3624340128": {
+      "cppCompilerExecutable": "/Users/lishixing/Library/Android/sdk/android-ndk-r20b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
