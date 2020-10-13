@@ -25,6 +25,7 @@ include_directories(BEFORE ${PATH_TO_THIRDPARTY}/ffmpeg/include/)
 include_directories(${PATH_TO_NATIVE}/)
 include_directories(${PATH_TO_NATIVE}/common/)
 include_directories(${PATH_TO_NATIVE}/video_player/)
+include_directories(${PATH_TO_NATIVE}/live_show_video_player/)
 
 file(GLOB FILES_JNI_LAYER "${PATH_TO_JNI_LAYER}/*.cpp")
 

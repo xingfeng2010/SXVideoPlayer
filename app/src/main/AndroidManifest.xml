@@ -29,6 +29,8 @@
         <activity android:name="media.ushow.as_video_player.ChangbaPlayerActivity">
         </activity>
 
+        <activity android:name="com.xingfeng.sxliveplayer.SpeedUpFirstScreenPlayerActivity"/>
+
     </application>
 
 </manifest>

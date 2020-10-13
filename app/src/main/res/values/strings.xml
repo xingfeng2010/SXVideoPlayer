@@ -5,7 +5,8 @@
     <string name="pause">暂停</string>
     <string name="play">播放</string>
     <string name="Video_Player">Video Player</string>
-    <string name="forward_page">进入播放页</string>
+    <string name="forward_page">视频播放</string>
+    <string name="live_page">直播播放</string>
     <string name="action_settings">Settings</string>
 
 </resources>
