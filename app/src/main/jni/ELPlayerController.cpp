@@ -1,6 +1,6 @@
 #include "com_xingfeng_sxliveplayer_ELPlayerController.h"
 
-#define LOG_TAG "ChangbaPlayer_JNI_Layer"
+#define LOG_TAG "ELPlayerController_JNI_Layer"
 typedef struct VideoPlayerHandle{
     LiveShowVideoController* playerController;
     ANativeWindow *surfaceWindow;
